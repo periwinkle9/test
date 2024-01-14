@@ -15,7 +15,7 @@ they will preserve most of their original Booster momentum despite not actively 
 
 This is the idea behind **machine boosting**, a set of techniques for touching
 the ground and immediately leaving the ground to preserve Booster momentum. With the
-Level 3 Machine Gun, this speed can then be carried across long distances.
+Level 3 Machine Gun, this speed can then be carried across long distances (hence the name).
 
 There are several different machine boosting techniques that can be applied in different
 scenarios. Understanding where, when, and how to apply each one will save you a lot of time
@@ -26,6 +26,8 @@ in the speedrun.
 ## Boost Jumping
 
 This is the oldest and arguably simplest form of Booster speed conservation.
+Notably, it is also the only technique here that can be performed even without a Level 3
+Machine Gun.
 As the name suggests, this technique involves boosting into the ground and then jumping to preserve
 the momentum.
 
@@ -34,6 +36,11 @@ There are several ways to perform a boost jump:
    {% include video-embed.html src="general/boost_jump_slope.mp4" alt="slope boost jump" %}
 2. Walk off of a ledge, boost onto another ledge at the same height, then jump:  
    {% include video-embed.html src="general/boost_jump_across.mp4" alt="boost across boost jump" %}
+   ```warning
+   This can be also done without the starting ledge to walk off of, by lining yourself up manually 
+   with the edge of the platform that you want to boost jump off of. This is more precise, though 
+   (it is a 4 pixel window to boost onto a block without colliding with the side of it).
+   ```
 3. Walk off of a ledge, immediately boost back onto that ledge, then jump:  
    {% include video-embed.html src="general/boost_jump_back.mp4" alt="walk off boost jump" %}
 
@@ -71,11 +78,11 @@ To perform a machine boost:
 ```tip
 If you need to descend very quickly (for instance, after exiting Cthulhu's Abode? 
 in the ruined Egg Corridor), be careful that you face up *before* you 
-start shooting, otherwise you'll shoot the first shot to the side and it'll 
-take until the next shot 6 frames later before you actually start descending.
+start shooting, otherwise you'll shoot the first shot to the side and it won't be 
+until the next shot 6 frames later before you actually start descending.
 ```
 
-```note
+### Boosting along flat ground
 The fastest way to move across flat ground once you have the Booster v2.0 
 is to repeatedly chain machine boosts, as shown in the GIF below.
 
@@ -85,17 +92,16 @@ Chaining machine boosts allows you to refuel your Booster without losing too muc
 each time.
 
 ![machine boosting]({{ site.baseurl }}{% link /assets/general/machine_boosting.gif %})
-```
 
 ## Corner-boosting
 
 Corner-boosting is the fastest method for preserving Booster speed. It is done by using the
 Machine Gun to boost upwards at a diagonal, and brushing up through a corner
 while doing so. If positioned correctly, Quote will touch ground for exactly
-one frame, allowing you to keep the maximum amount of Booster speed.
+one frame, thereby minimizing the amount of speed lost to friction.
 
 ```danger
-The positioning and timing for this technique is much tighter than the previous 
+The positioning and timing for this technique is often tighter than the previous 
 two techniques (in some cases, it is frame-perfect). 
 However, in return it is extremely fast, so it's worth at least trying to learn. 
 Don't give up! You can do it!
@@ -151,7 +157,9 @@ Corner-boosts can be performed in a few ways:
    {% include video-embed.html src="general/corner_boost_yolo1.mp4" alt="corner boost 3" %}
    
    ```warning
-   Depending on the situation, the timing for this may end up being frame-perfect or close to it.
+   The positioning for this is somewhat precise. If you're boosting up or falling down 
+   to reach the corner, then the timing for the corner-boost inputs is typically frame-perfect 
+   (or very close to it).
    ```
 4. If the corner is up at a diagonal relative to where you are: Boost sideways
    and shoot the Machine Gun downward so that you travel diagonally upwards,
@@ -159,5 +167,7 @@ Corner-boosts can be performed in a few ways:
    {% include video-embed.html src="general/corner_boost_yolo2.mp4" alt="corner boost 4" %}
 
    ```warning
-   The Machine Gun timing for this is usually frame-perfect.
+   Although the initial position when starting the boost doesn't matter too much, the 
+   timing for when to start shooting the Machine Gun is usually frame-perfect (regardless 
+   of that initial position).
    ```
