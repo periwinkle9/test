@@ -32,6 +32,12 @@ plugins:
   - jekyll-avatar
   - jekyll-mentions
 
+translate:
+  danger: Advanced strat
+  note: Optimization tip
+  tip: Tip
+  warning: Note
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

@@ -1,0 +1,9 @@
+<div class="embed-container" markdown="0">
+    <video width="{{ include.width | default: 320 }}" controls>
+        <source src="{{ "/assets/" | append: include.src | relative_url }}" type="{{ include.type | default: "video/mp4" }}">
+        {{ include.alt }}
+    </video>
+    {% comment %}
+    Indenting the closing div tag avoids problems when this file is included within a markdown list
+    {% endcomment %}
+    </div>
