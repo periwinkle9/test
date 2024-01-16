@@ -25,11 +25,17 @@ in the speedrun.
 
 ## Boost Jumping
 
-This is the oldest and arguably simplest form of Booster speed conservation.
-Notably, it is also the only technique here that can be performed even without a Level 3
-Machine Gun.
+This is the oldest and arguably simplest method of preserving Booster speed.
 As the name suggests, this technique involves boosting into the ground and then jumping to preserve
 the momentum.
+Notably, this makes it the only technique on this page that can be performed even without a Level 3
+Machine Gun.
+
+Nowadays, boost jumping has largely been supplanted by the much faster [corner boost](#corner-boosting)
+technique; however, it still comes up in places like Last Cave and Hell where you don't have a
+Level 3 Machine Gun, as a backup in case you de-level your Machine Gun, or just as an easier alternative
+to some corner boost setups.
+Therefore, it is still useful to familiarize yourself with this technique.
 
 There are several ways to perform a boost jump:
 1. Boost into a sloped surface, then jump:  
@@ -58,7 +64,7 @@ ground.
 
 ## Using the Machine Gun to Boost Jump
 
-This is a special form of boost-jumping, where instead of boosting directly
+This is a special form of boost jumping, where instead of boosting directly
 onto a ground surface, you use the Machine Gun's recoil to push you onto the ground.
 I don't know of a specific name for this technique, but since the other ones all have
 their own names, I'm just going to refer to this one as "machine boosting" even though
@@ -93,23 +99,19 @@ each time.
 
 ![machine boosting]({{ site.baseurl }}{% link /assets/general/machine_boosting.gif %})
 
-## Corner-boosting
+## Corner boosting
 
-Corner-boosting is the fastest method for preserving Booster speed. It is done by using the
-Machine Gun to boost upwards at a diagonal, and brushing up through a corner
-while doing so. If positioned correctly, Quote will touch ground for exactly
-one frame, thereby minimizing the amount of speed lost to friction.
+Corner boosting is the fastest method for preserving Booster speed. It is done by using the
+Machine Gun to boost diagonally, and brushing up through a corner while doing so.
+If positioned correctly, Quote will touch ground for exactly one frame, which will cancel
+the boost while preserving almost all of the Booster speed.
 
-```danger
-The positioning and timing for this technique is often tighter than the previous 
-two techniques (in some cases, it is frame-perfect). 
-However, in return it is extremely fast, so it's worth at least trying to learn. 
-Don't give up! You can do it!
-```
+Because corner boosts are so fast, they are the method of choice for long-distance travel.
+However, the setups can be a bit more difficult to execute in some cases.
 
-Corner-boosts can be performed in a few ways:
+Corner boosts can be performed in a few ways:
 1. Walk off of a ledge, boost towards another ledge at the same height (as
-   if you were going to boost-jump), but instead of waiting to touch the
+   if you were going to boost jump), but instead of waiting to touch the
    ground, start shooting down with the Machine Gun shortly *before* reaching
    the ledge:  
    {% include video-embed.html src="general/corner_boost_level.mp4" alt="corner boost 1" %}
@@ -121,7 +123,7 @@ Corner-boosts can be performed in a few ways:
    **Troubleshooting Tips**
 
    The timing for when to start shooting also depends on your vertical 
-   position. Here's how to correct your timing when your corner-boost fails:
+   position. Here's how to correct your timing when your corner boost fails:
 
    **Issue:** Quote continues boosting up at a diagonal (the boost does not cancel).  
    **Diagnosis:** You went too high and boosted over the corner.  
@@ -146,7 +148,7 @@ Corner-boosts can be performed in a few ways:
    {% include video-embed.html src="general/corner_boost_walkoff.mp4" alt="corner boost easy" %}
 
    ```tip
-   This is the easiest method of corner-boosting (although these inputs may 
+   This is the easiest method of corner boosting (although these inputs may 
    be difficult to execute if you are playing on controller). 
    Although this setup is rarely the fastest for most situations, it can be useful 
    as a safety strat and/or a backup if you fail one of the other methods.
@@ -158,7 +160,7 @@ Corner-boosts can be performed in a few ways:
    
    ```warning
    The positioning for this is somewhat precise. If you're boosting up or falling down 
-   to reach the corner, then the timing for the corner-boost inputs is typically frame-perfect 
+   to reach the corner, then the timing for the corner boost inputs is typically frame-perfect 
    (or very close to it).
    ```
 4. If the corner is up at a diagonal relative to where you are: Boost sideways
